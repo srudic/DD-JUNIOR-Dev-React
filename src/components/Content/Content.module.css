@@ -7,3 +7,19 @@
   padding-right: 8rem;
   margin-left: 25%;
 }
+
+@media (max-width: 425px) {
+  .Container {
+    margin-left: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .Container {
+    margin-left: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
