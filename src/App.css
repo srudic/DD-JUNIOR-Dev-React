@@ -1,0 +1,7 @@
+.App {
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: grey;
+  color: white;
+  display: flex;
+}

@@ -37,10 +37,13 @@ The goal is to create resume (CV) page using React components. It wasn't just to
 In the project directory, you can run:
 
 ```bash
-git clone
+git clone -b task-1-react-resume-builder git@github.com:srudic/DD-JUNIOR-Dev-React.git
+cd DD-JUNIOR-Dev-React
 npm install
 npm run dev
 ```
+
+After running these commands, you should be able to access the project locally at [localhost:port] in your web browser.
 
 <a id="item-five"></a>
 
