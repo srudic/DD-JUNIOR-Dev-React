@@ -1,0 +1,44 @@
+.Container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SectionTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(242, 192, 123);
+}
+
+.Text {
+  margin-bottom: 2rem;
+}
+
+.Icon {
+  margin-left: 0.2rem;
+}
+
+.SocialMediaContainer {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.SocialMediaContainer:hover {
+  background-color: #686868;
+  color: white;
+}
+
+.SocialMediaICon {
+  margin-left: 10px;
+}
