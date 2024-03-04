@@ -13,6 +13,20 @@
   padding: 2rem;
 }
 
+.Name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(242, 192, 123);
+}
+
+.ScientificTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(242, 192, 123);
+}
+
 .Title {
   text-align: center;
   padding: 1rem;

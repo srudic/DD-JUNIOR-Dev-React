@@ -1,7 +1,10 @@
 import styles from "./Contact.module.css";
+
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+
+import SocialMediaButton from "./SocialMediaButton.jsx";
 
 const Contact = () => {
   const handleLinkedInClick = () => {
@@ -23,24 +26,16 @@ const Contact = () => {
           <MdOutlineRocketLaunch color={"rgb(242, 192, 123)"} size={25} />
         </span>
       </p>
-      <button
-        className={styles.SocialMediaContainer}
+      <SocialMediaButton
+        title="LinkedIn"
+        icon={<FaLinkedin color={"#0077B5"} size={25} />}
         onClick={handleLinkedInClick}
-      >
-        <div className={styles.SocialMediaTitle}>LinkedIn</div>
-        <div className={styles.SocialMediaICon}>
-          <FaLinkedin color={"#0077B5"} size={25} />
-        </div>
-      </button>
-      <button
-        className={styles.SocialMediaContainer}
+      />
+      <SocialMediaButton
+        title="Github"
+        icon={<FaGithub color={"black"} size={25} />}
         onClick={handleGithubClick}
-      >
-        <div className={styles.SocialMediaTitle}>Github</div>
-        <div className={styles.SocialMediaICon}>
-          <FaGithub color={"black"} size={25} />
-        </div>
-      </button>
+      />
     </div>
   );
 };

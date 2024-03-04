@@ -11,6 +11,8 @@ function smoothScroll(id) {
 const Navigation = () => {
   return (
     <div className={styles.NavigationContainer}>
+      <div className={styles.Name}>SANJA RUDIĆ</div>
+      <div className={styles.ScientificTitle}>mag.ing.comp.</div>
       <div className={styles.Navigation}>
         {NAVIGATION_CONSTANTS.map((tab) => (
           <div
