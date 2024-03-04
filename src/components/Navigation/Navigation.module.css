@@ -1,4 +1,11 @@
+.ToggleButton {
+  padding: 1.5rem;
+  position: fixed;
+  z-index: 10;
+}
+
 .NavigationContainer {
+  background-color: gray;
   width: 25%;
   border-right: 2px solid white;
   height: 100vh;
@@ -7,6 +14,12 @@
   justify-content: center;
   align-items: center;
   position: fixed;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.Open {
+  transform: translateX(0);
 }
 
 .Navigation {
@@ -39,4 +52,10 @@
 
 .Title:hover {
   color: rgb(205, 169, 119); /* Change color on hover */
+}
+
+@media (max-width: 768px) {
+  .NavigationContainer {
+    width: 100%;
+  }
 }
