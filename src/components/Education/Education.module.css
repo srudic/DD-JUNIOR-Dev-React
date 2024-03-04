@@ -1,0 +1,23 @@
+.Education {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.SectionTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(242, 192, 123);
+}
+
+.EducationItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.EducationItem {
+  margin-bottom: 20px;
+}
+.EducationItemHeader {
+  display: flex;
+}
