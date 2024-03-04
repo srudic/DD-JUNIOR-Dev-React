@@ -13,7 +13,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id={"contact"}>
       <h2 className={styles.SectionTitle}>Contact</h2>
       <p className={styles.Text}>
         Whether you have a project idea in mind or just want to say hello, I'd

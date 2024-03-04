@@ -1,18 +1,25 @@
 import styles from "./Navigation.module.css";
 
-const navigationTabs = [
-  { title: "Home", selected: false },
-  { title: "About me", selected: false },
-  { title: "Education", selected: false },
-  { title: "Contact", selected: false },
-];
+import { NAVIGATION_CONSTANTS } from "../../UI/Constants";
+
+function smoothScroll(id) {
+  document.querySelector(`#${id}`).scrollIntoView({
+    behavior: "smooth",
+  });
+}
 
 const Navigation = () => {
   return (
     <div className={styles.NavigationContainer}>
       <div className={styles.Navigation}>
-        {navigationTabs.map((tab) => (
-          <div key={tab.title} className={styles.Title}>
+        {NAVIGATION_CONSTANTS.map((tab) => (
+          <div
+            key={tab.title}
+            className={styles.Title}
+            onClick={() => {
+              smoothScroll(tab.id);
+            }}
+          >
             {tab.title}
           </div>
         ))}

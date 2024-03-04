@@ -4,7 +4,7 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <div className={styles.Wrapper}>
+    <div className={styles.Wrapper} id={"home"}>
       <div className={styles.Hello}>
         <TypeAnimation
           sequence={[

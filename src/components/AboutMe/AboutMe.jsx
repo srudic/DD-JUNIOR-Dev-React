@@ -2,7 +2,7 @@ import styles from "./AboutMe.module.css";
 import Skills from "./Skills/Skills";
 const AboutMe = () => {
   return (
-    <div className={styles.AboutMeContainer}>
+    <div className={styles.AboutMeContainer} id="about">
       <div className={styles.SectionTitle}>About Me</div>
       <p className={styles.Text}>
         Motivated Computer Science graduate seeking the role of a developer.
