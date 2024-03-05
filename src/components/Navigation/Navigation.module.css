@@ -2,6 +2,7 @@
   padding: 1.5rem;
   position: fixed;
   z-index: 10;
+  display: none;
 }
 
 .NavigationContainer {
@@ -57,5 +58,8 @@
 @media (max-width: 768px) {
   .NavigationContainer {
     width: 100%;
+  }
+  .ToggleButton {
+    display: block;
   }
 }
