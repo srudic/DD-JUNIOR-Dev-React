@@ -25,17 +25,17 @@ The goal is create an application that serves as a traffic light for a football 
 
 The application should have the following functionalities:
 
-- Display teams (logo and team name).
-- Current score.
-- Date.
-- Controls to adjust the score.
+- Display teams (logo and team name) 🏟️
+- Current score ⚽
+- Date 📅
+- Controls to adjust the score 🎮
 
 Additional functionalities:
 
-- Minute counter (real-time or with control buttons).
-- Display of score changes (1:0 - 6' min; 1:1 - 32' min; ...).
-- Framework for tracking statistics (shots, fouls, cards) with buttons to change values.
-- Button to reset all values.
+- Minute counter (real-time or with control buttons) ⏱️
+- Display of score changes (1:0 - 6' min; 1:1 - 32' min; ...) 🔄
+- Framework for tracking statistics (shots, fouls, cards) with buttons to change values 📊
+- Button to reset all values 🔁
 
 <a id="item-three"></a>
 

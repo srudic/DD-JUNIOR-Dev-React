@@ -1,0 +1,12 @@
+.ScoreboardContainer {
+  background-color: white;
+  margin: 5% 10%;
+  width: 100%;
+  border-radius: 15px;
+  padding: 0 10%;
+}
+
+.TeamsANDScore {
+  display: flex;
+  justify-content: space-between;
+}
