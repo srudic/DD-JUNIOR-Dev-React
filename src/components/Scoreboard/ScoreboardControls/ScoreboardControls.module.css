@@ -1,0 +1,21 @@
+.ScoreboardControlsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.Button {
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  background-color: white;
+  color: #30c853;
+  border: 2px solid #30c853;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #30c853;
+  color: white;
+}
