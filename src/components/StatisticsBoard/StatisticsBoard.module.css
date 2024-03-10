@@ -1,0 +1,16 @@
+.BoardContainer {
+  color: grey;
+  background-color: white;
+  width: 100%;
+  border-radius: 15px;
+  padding: 1% 10%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainTitle {
+  color: grey;
+}
