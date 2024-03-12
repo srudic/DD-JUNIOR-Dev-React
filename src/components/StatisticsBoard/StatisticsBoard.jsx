@@ -1,33 +1,14 @@
-import { useState } from "react";
 import styles from "./StatisticsBoard.module.css";
 import StatitsticsItem from "./StatisticsItem/StatisticsItem";
 
-// Custom hook for managing statistics
-const useStatistic = (initialValue) => {
-  const [value, setValue] = useState(initialValue);
-
-  const increase = () => {
-    setValue(value + 1);
-  };
-
-  const decrease = () => {
-    if (value > 0) {
-      setValue(value - 1);
-    }
-  };
-
-  return { value, increase, decrease };
-};
-
-const StatisticsBoard = () => {
-  // Use custom hook for each statistic
-  const homeShots = useStatistic(0);
-  const guestShots = useStatistic(0);
-  const homeYellowCards = useStatistic(0);
-  const guestYellowCards = useStatistic(0);
-  const homeRedCards = useStatistic(0);
-  const guestRedCards = useStatistic(0);
-
+const StatisticsBoard = ({
+  homeShots,
+  guestShots,
+  homeYellowCards,
+  guestYellowCards,
+  homeRedCards,
+  guestRedCards,
+}) => {
   return (
     <div className={styles.BoardContainer}>
       <h2 className={styles.MainTitle}>Statistics</h2>

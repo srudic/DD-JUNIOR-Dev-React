@@ -8,11 +8,11 @@ const TeamScore = ({ teamStatus, score, increaseScore, decreaseScore }) => {
       <p className={styles.TeamName}>{teamStatus}</p>
       <p className={styles.TeamScore}>{score}</p>
       <div className={styles.ButtonContainer}>
-        <Button buttonStyle={styles.Button} onClick={increaseScore}>
-          +
-        </Button>
         <Button buttonStyle={styles.Button} onClick={decreaseScore}>
           -
+        </Button>
+        <Button buttonStyle={styles.Button} onClick={increaseScore}>
+          +
         </Button>
       </div>
     </div>
